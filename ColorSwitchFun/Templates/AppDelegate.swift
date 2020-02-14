@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ColorSwitchFun
 //
-//  Created by VamshiKrishna Giri on 2/12/20.
+//  Created by Rashmi Kesireddy on 2/12/20.
 //  Copyright © 2020 Rashmi Kesireddy. All rights reserved.
 //
 

@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6153D4B23F5FA2300D63F85 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6153D4A23F5FA2300D63F85 /* MenuScene.swift */; };
 		B629D48F23F48B7B0020375C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629D48E23F48B7B0020375C /* AppDelegate.swift */; };
-		B629D49123F48B7B0020375C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B629D49023F48B7B0020375C /* GameScene.sks */; };
-		B629D49323F48B7B0020375C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B629D49223F48B7B0020375C /* Actions.sks */; };
 		B629D49523F48B7B0020375C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629D49423F48B7B0020375C /* GameScene.swift */; };
 		B629D49723F48B7B0020375C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629D49623F48B7B0020375C /* GameViewController.swift */; };
 		B629D49A23F48B7B0020375C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B629D49823F48B7B0020375C /* Main.storyboard */; };
 		B629D49C23F48B7D0020375C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B629D49B23F48B7D0020375C /* Assets.xcassets */; };
 		B629D49F23F48B7D0020375C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B629D49D23F48B7D0020375C /* LaunchScreen.storyboard */; };
+		B629D4AC23F4A5060020375C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B629D4AB23F4A5060020375C /* Settings.swift */; };
+		B64BEEDB23F7069800F37313 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = B64BEEDA23F7069800F37313 /* bling.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6153D4A23F5FA2300D63F85 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		B629D48B23F48B7B0020375C /* ColorSwitchFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwitchFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B629D48E23F48B7B0020375C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B629D49023F48B7B0020375C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B629D49223F48B7B0020375C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B629D49423F48B7B0020375C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B629D49623F48B7B0020375C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B629D49923F48B7B0020375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B629D49B23F48B7D0020375C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B629D49E23F48B7D0020375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B629D4A023F48B7D0020375C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B629D4AB23F4A5060020375C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B64BEEDA23F7069800F37313 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +62,50 @@
 		B629D48D23F48B7B0020375C /* ColorSwitchFun */ = {
 			isa = PBXGroup;
 			children = (
-				B629D48E23F48B7B0020375C /* AppDelegate.swift */,
-				B629D49023F48B7B0020375C /* GameScene.sks */,
-				B629D49223F48B7B0020375C /* Actions.sks */,
-				B629D49423F48B7B0020375C /* GameScene.swift */,
-				B629D49623F48B7B0020375C /* GameViewController.swift */,
-				B629D49823F48B7B0020375C /* Main.storyboard */,
-				B629D49B23F48B7D0020375C /* Assets.xcassets */,
-				B629D49D23F48B7D0020375C /* LaunchScreen.storyboard */,
 				B629D4A023F48B7D0020375C /* Info.plist */,
+				B64BEEDA23F7069800F37313 /* bling.wav */,
+				B629D4A923F4A4610020375C /* Templates */,
+				B629D4A823F4A44E0020375C /* Scenes */,
+				B629D4AA23F4A47D0020375C /* ViewControllers */,
+				B629D4A623F4A4360020375C /* Assets */,
 			);
 			path = ColorSwitchFun;
+			sourceTree = "<group>";
+		};
+		B629D4A623F4A4360020375C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B629D49B23F48B7D0020375C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B629D4A823F4A44E0020375C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B629D49423F48B7B0020375C /* GameScene.swift */,
+				B6153D4A23F5FA2300D63F85 /* MenuScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B629D4A923F4A4610020375C /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B629D49823F48B7B0020375C /* Main.storyboard */,
+				B629D49D23F48B7D0020375C /* LaunchScreen.storyboard */,
+				B629D48E23F48B7B0020375C /* AppDelegate.swift */,
+				B629D4AB23F4A5060020375C /* Settings.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		B629D4AA23F4A47D0020375C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B629D49623F48B7B0020375C /* GameViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B629D48623F48B7B0020375C /* Build configuration list for PBXProject "ColorSwitchFun" */;
+			buildConfigurationList = B629D48623F48B7B0020375C /* Build configuration list for PBXProject "ColorSwitch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,10 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B629D49A23F48B7B0020375C /* Main.storyboard in Resources */,
-				B629D49123F48B7B0020375C /* GameScene.sks in Resources */,
+				B64BEEDB23F7069800F37313 /* bling.wav in Resources */,
 				B629D49C23F48B7D0020375C /* Assets.xcassets in Resources */,
 				B629D49F23F48B7D0020375C /* LaunchScreen.storyboard in Resources */,
-				B629D49323F48B7B0020375C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +182,8 @@
 			files = (
 				B629D49523F48B7B0020375C /* GameScene.swift in Sources */,
 				B629D49723F48B7B0020375C /* GameViewController.swift in Sources */,
+				B6153D4B23F5FA2300D63F85 /* MenuScene.swift in Sources */,
+				B629D4AC23F4A5060020375C /* Settings.swift in Sources */,
 				B629D48F23F48B7B0020375C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B629D48623F48B7B0020375C /* Build configuration list for PBXProject "ColorSwitchFun" */ = {
+		B629D48623F48B7B0020375C /* Build configuration list for PBXProject "ColorSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B629D4A123F48B7D0020375C /* Debug */,
